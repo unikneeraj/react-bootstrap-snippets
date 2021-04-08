@@ -1,0 +1,24 @@
+{
+    "name": "react-bootstrap-snippets",
+    "displayName": "react-bootstrap-snippets",
+    "description": "React boostrap 4 snippets",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
