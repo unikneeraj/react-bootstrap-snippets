@@ -1,0 +1,12 @@
+{
+  "name": "react-bootstrap-snippets-build",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {}
+}
