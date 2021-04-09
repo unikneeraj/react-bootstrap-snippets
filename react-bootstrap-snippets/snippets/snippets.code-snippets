@@ -1,4 +1,16 @@
 {
+	"rb-accordion": {
+		"prefix": "rb-accordion",
+		"body": [
+			"<Accordion defaultActiveKey=\"0\">\r\n    <Card>\r\n        <Card.Header>\r\n            <Accordion.Toggle as={ ${1:Button} } variant=\"${2|primary,secondary,success,danger,warning,info,light,dark|}\" eventKey=\"0\">\r\n                ${3:Click me!}\r\n            </Accordion.Toggle>\r\n        </Card.Header>\r\n        <Accordion.Collapse eventKey=\"0\">\r\n            <Card.Body>${4:Hello! I'm the body}</Card.Body>\r\n        </Accordion.Collapse>\r\n    </Card>\r\n</Accordion>"
+		]
+	},
+	"rb-alert-dismissible": {
+		"prefix": "rb-alert-dismissible",
+		"body": [
+			"<Alert variant=\"${1|primary,secondary,success,danger,warning,info,light,dark|}\" onClose={ () => ${2:setShow(false)} } >\r\n    <Alert.Heading>${3:Heading}</Alert.Heading>\r\n    ${4:Content}\r\n</Alert>"
+		]
+	},
 	"rb-alert-header": {
 		"prefix": "rb-alert-header",
 		"body": [

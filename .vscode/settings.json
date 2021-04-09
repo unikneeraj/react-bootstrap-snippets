@@ -2,4 +2,5 @@
     "prettier.arrowParens": "avoid",
     "prettier.singleQuote": true,
     "editor.formatOnSave": false,
+   
 }

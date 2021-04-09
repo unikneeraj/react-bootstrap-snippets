@@ -5,8 +5,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "compile": "node ./index.js",
-    "dev": "nodemon ./index.js"
+    "compile": "node ./index.js"
   },
   "author": "",
   "license": "ISC",
