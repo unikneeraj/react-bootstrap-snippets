@@ -20,7 +20,9 @@ const snippets = {};
   });
 })(sourceDir);
 
-files.forEach(file => {
+files.filter(file => {
+  if(file.includes('.html')) return true;
+}).forEach(file => {
   const data = fs.readFileSync(file, {
     encoding: 'utf-8',
   });
