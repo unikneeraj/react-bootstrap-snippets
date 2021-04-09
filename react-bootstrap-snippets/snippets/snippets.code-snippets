@@ -1,1 +1,14 @@
-{}
+{
+	"rb-alert-header": {
+		"prefix": "rb-alert-header",
+		"body": [
+			"<Alert show={ ${1|true,false|} } variant=\"${2|primary,secondary,success,danger,warning,info,light,dark|}\">\r\n    <Alert.Heading>${3:Heading}</Alert.Heading>\r\n    ${4:Content}\r\n</Alert>"
+		]
+	},
+	"rb-alert": {
+		"prefix": "rb-alert",
+		"body": [
+			"<Alert show={ ${1|true,false|} } variant=\"${2|primary,secondary,success,danger,warning,info,light,dark|}\">\r\n    ${3:Content}\r\n</Alert>"
+		]
+	}
+}

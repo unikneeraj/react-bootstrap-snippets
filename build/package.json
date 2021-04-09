@@ -2,9 +2,11 @@
   "name": "react-bootstrap-snippets-build",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "compile": "node index.js"
+    "compile": "node ./index.js",
+    "dev": "nodemon ./index.js"
   },
   "author": "",
   "license": "ISC",
